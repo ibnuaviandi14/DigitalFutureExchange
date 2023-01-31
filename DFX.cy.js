@@ -12,7 +12,7 @@ it('Check conformance of the homepage',() =>{
     cy.get('input[name="id"]').should('be.visible') // Assertion for the ID that visible for the user
     cy.get('input[name="password"]').should('be.visible') // Assertion for the Password that visible for the user
     cy.get('input[name="captcha"]').should('be.visible') // Assertion for the Captcha that visible for the user
-    cy.get('.btn').should('be.visible') // Assertion for the LOGIN that visible for the user
-    cy.get('.btn').should('have.attr','type').should('contain','submit') // Assertion for the LOGIN that have correct function
+    cy.get('.btn').should('be.visible') // Assertion for the LOGIN button that visible for the user
+    cy.get('.btn').should('have.attr','type').should('contain','submit') // Assertion for the LOGIN button that have correct function
 })
 })
